@@ -4,7 +4,8 @@
 // without modifying source files.
 
 body {
-
+  background-image: url(../../images/grey.png) !important;
+  background-attachment:fixed;
 }
 
 nav ul li{
@@ -13,18 +14,31 @@ nav ul li{
 
 .behind{
   z-index:0 !important;
+  background-color:transparent !important;
 }
 
 .content{
+  border-top:1px solid #818a91;
   position:relative;
   background:white;
   z-index:1 !important;
-  top:9.5rem;
+  top:11rem;
+}
+
+.resume{
+  .row{padding-top:1rem}
+  border-top:1px solid #818a91;
+  position:relative;
+  background:white;
+  z-index:1 !important;
+  top:3.5rem;
 }
 
 .projects{
   padding-top:1rem;
 }
+
+
 
 #logo{font-family:"Montserrat";font-size: 1.25rem}
 
