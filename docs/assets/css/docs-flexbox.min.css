@@ -1,3 +1,32 @@
+nav ul li {
+  margin-top: 1px;
+}
+
+.behind {
+  z-index: 0 !important;
+}
+
+.content {
+  position: relative;
+  background: white;
+  z-index: 1 !important;
+  top: 9.5rem;
+}
+
+.projects {
+  padding-top: 1rem;
+}
+
+#logo {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+}
+
+#about {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .flex-xs-first {
   order: -1;
 }
