@@ -4,7 +4,7 @@
 // without modifying source files.
 
 body {
-  h4,h5,h6{font-family:"Open Sans"};
+  h4,h5,h6,p{font-family:"Open Sans"};
   h1,h2,h3 {font-family:"Montserrat"};
   //background-image: url(../../images/grey.png) !important;
   //background-attachment:fixed;
@@ -19,33 +19,49 @@ nav ul li{
   background-color:transparent !important;
 }
 
-.content{
-  border-top:1px solid #818a91;
-  position:relative;
+.content {
+    top:13rem;
+    position:relative;
+    z-index:1 !important;
+}
+
+.thumbs{
+  outline:1px solid #818a91;
+  outline-width: 1px 1px 1px 1px;
   background:white;
-  z-index:1 !important;
-  top:11rem;
 }
 
 .resume{
-  .row{padding-top:1rem}
-  border-top:1px solid #818a91;
-  position:relative;
+  outline:1px solid #818a91;
+  outline-width: 1px 1px 1px 1px;
   background:white;
-  z-index:1 !important;
-  top:3.5rem;
+  padding:2rem;
+  p{padding-bottom:1rem}
+  h6{font-size:.75rem}
+  .sect{font-weight:800}
 }
 
 .projects{
   padding-top:1rem;
+  padding-bottom:1rem;
 }
 
-
+.footer {
+  padding:2rem;
+  img{
+    height:30px;
+    width:30px;
+    display:block;
+    margin:auto
+  }
+}
 
 #logo{font-family:"Montserrat";font-size: 1.25rem}
 
 #about{
-  text-align:center;margin-top:1rem;
+  text-align:center;
+  margin-top:1rem;
+  h6 {line-height:2rem}
 }
 
 #about h6 {padding:1rem;border:2px dashed #818a91}

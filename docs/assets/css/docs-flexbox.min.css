@@ -1,4 +1,4 @@
-body h4, body h5, body h6 {
+body h4, body h5, body h6, body p {
   font-family: "Open Sans";
 }
 
@@ -16,27 +16,50 @@ nav ul li {
 }
 
 .content {
-  border-top: 1px solid #818a91;
+  top: 13rem;
   position: relative;
-  background: white;
   z-index: 1 !important;
-  top: 11rem;
+}
+
+.thumbs {
+  outline: 1px solid #818a91;
+  outline-width: 1px 1px 1px 1px;
+  background: white;
 }
 
 .resume {
-  border-top: 1px solid #818a91;
-  position: relative;
+  outline: 1px solid #818a91;
+  outline-width: 1px 1px 1px 1px;
   background: white;
-  z-index: 1 !important;
-  top: 3.5rem;
+  padding: 2rem;
 }
 
-.resume .row {
-  padding-top: 1rem;
+.resume p {
+  padding-bottom: 1rem;
+}
+
+.resume h6 {
+  font-size: .75rem;
+}
+
+.resume .sect {
+  font-weight: 800;
 }
 
 .projects {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+  padding: 2rem;
+}
+
+.footer img {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin: auto;
 }
 
 #logo {
@@ -47,6 +70,10 @@ nav ul li {
 #about {
   text-align: center;
   margin-top: 1rem;
+}
+
+#about h6 {
+  line-height: 2rem;
 }
 
 #about h6 {
