@@ -4,8 +4,10 @@
 // without modifying source files.
 
 body {
-  background-image: url(../../images/grey.png) !important;
-  background-attachment:fixed;
+  h4,h5,h6{font-family:"Open Sans"};
+  h1,h2,h3 {font-family:"Montserrat"};
+  //background-image: url(../../images/grey.png) !important;
+  //background-attachment:fixed;
 }
 
 nav ul li{
@@ -42,4 +44,8 @@ nav ul li{
 
 #logo{font-family:"Montserrat";font-size: 1.25rem}
 
-#about{text-align:center;margin-top:2rem}
+#about{
+  text-align:center;margin-top:1rem;
+}
+
+#about h6 {padding:1rem;border:2px dashed #818a91}

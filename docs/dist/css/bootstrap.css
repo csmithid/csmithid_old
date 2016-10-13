@@ -4,9 +4,12 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-body {
-  background-image: url(../../images/grey.png) !important;
-  background-attachment: fixed;
+body h4, body h5, body h6 {
+  font-family: "Open Sans";
+}
+
+body h1, body h2, body h3 {
+  font-family: "Montserrat";
 }
 
 nav ul li {
@@ -49,7 +52,12 @@ nav ul li {
 
 #about {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+#about h6 {
+  padding: 1rem;
+  border: 2px dashed #818a91;
 }
 
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
