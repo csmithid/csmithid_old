@@ -12,6 +12,10 @@ body h1, body h2, body h3 {
   font-family: "Montserrat";
 }
 
+body a {
+  color: #0099ff;
+}
+
 nav ul li {
   margin-top: 1px;
 }
@@ -46,10 +50,16 @@ nav ul li {
 
 .resume h6 {
   font-size: .75rem;
+  line-height: .5rem;
+  color: #999999;
+}
+
+.resume h5 {
+  color: #f0ad4e;
 }
 
 .resume .sect {
-  font-weight: 800;
+  color: #404040;
 }
 
 .projects {

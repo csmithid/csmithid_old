@@ -6,6 +6,7 @@
 body {
   h4,h5,h6,p{font-family:"Open Sans"};
   h1,h2,h3 {font-family:"Montserrat"};
+  a{color:#0099ff}
   //background-image: url(../../images/grey.png) !important;
   //background-attachment:fixed;
 }
@@ -37,8 +38,9 @@ nav ul li{
   background:white;
   padding:2rem;
   p{padding-bottom:1rem}
-  h6{font-size:.75rem}
-  .sect{font-weight:800}
+  h6{font-size:.75rem;line-height:.5rem;color:#999999}
+  h5{color:#f0ad4e}
+  .sect{color:#404040}
 }
 
 .projects{
