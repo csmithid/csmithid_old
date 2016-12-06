@@ -67,6 +67,21 @@ nav ul li {
   padding-bottom: 1rem;
 }
 
+.projects img {
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  -o-transition: -o-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s, -o-transform 0.25s;
+}
+
+.projects img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+       -o-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 .footer {
   padding: 2rem;
 }

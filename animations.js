@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  console.log("Hello");
+  $('img').hover(function(){
+    $(this).animate({"transform":"scale(3,3)"},100);
+  },
+  function(){
+    $(this).animate({"opacity":1},500);
+  });
+});
